@@ -6,7 +6,7 @@
 /*   By: salegari <salegari@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 19:07:19 by salegari          #+#    #+#             */
-/*   Updated: 2026/09/29 19:10:45 by salegari         ###   ########.fr       */
+/*   Updated: 2026/09/29 19:48:48 by salegari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_PRINTF_H
 
 # include <unistd.h>
+# include <stdarg.h>
 
 int	ft_strlen(char *s);
 int	ft_putptr(void *ptr);

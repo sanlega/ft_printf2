@@ -6,11 +6,10 @@
 /*   By: salegari <salegari@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 18:09:20 by salegari          #+#    #+#             */
-/*   Updated: 2026/09/29 19:45:16 by salegari         ###   ########.fr       */
+/*   Updated: 2026/09/29 19:48:40 by salegari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdarg.h>
 #include "ft_printf.h"
 
 static int	check_conver(char c, va_list args)
